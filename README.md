@@ -2,10 +2,19 @@
 Atividade em sala de aula
 
 Questão 1 - O que é um vetor em C++? Explique com suas palavras.
+É um tipo de dado que guarda uma certa quantidade de valores de um mesmo tipo na mamória, é como se
+em vez de eu guardar uma xícara rosa em repartições diferentes eu simplesmente guardar todas as xícaras
+rosas em uma só repartição do ármario, e nesse exemplo o 'vetor' seria a repartição, que guarda valores do 'tipo'
+xícara rosa.
 
 Questão 2 - Qual a diferença entre declarar um vetor com valor fixo e inicializá-lo com valores específicos?
+A diferença é que na declaração com valor fixo, somente a quantidade de valores permitida no vetor é definida no
+momento de sua criação, já quando ele é inicializado, o conteúdo , o valor individual de cada valor no vetor é 
+dedinido ali mesmo no momento da criação.
 
 Questão 3 - Explique o que significa índice e qual o intervalo válido para um vetor int notas[10];
+Índice é a posição assumida pelo vetor de onde está cada valor, a contagem sempre começa com 0.
+int notas[10] - 0 a 9.
 
 Questão 4 - Crie um programa que:
   
